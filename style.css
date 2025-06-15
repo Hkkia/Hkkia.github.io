@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700;800&display=swap'); 
+
+:root {
+    --accent: hwb(0 12% 87% / 0.728);
+    --bkgrnd: #e1eeef;
+    --light: #fbfbfb; 
+    --overLayStart: rgba(55,55,86,0.9);
+    --overLayEnd: rgba(55,55,86,0.7); 
+    --ease: all 0.3s ease 0s; 
+    --projects: #800060; 
+}
+
+body {
+    background-color: var(--light);
+    background-image:url(images/mnr_bg.jpg);
+    max-height: 100%;
+    max-width: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    text-align: justify; 
+    font-family: "OpenSans", sans-serif;
+    color: var(--accent);
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color:rgb(11, 88, 129); 
+    text-decoration: none;
+}
+
+.top_content {
+    position: relative;
+    width: 98%; 
+    height: auto;
+    padding-top: 2%;
+    line-height: 2;
+    margin-left: auto;
+    text-align: justify;
+}
+
+.top {
+    position: relative;
+    width: 100%; 
+    height: auto;
+    margin-left: auto;
+    margin-top: auto;
+    padding-top: 2%;
+}
+
+.profile_pic {
+    position: relative;
+
+    float: left;
+    border-radius: 0%;
+    width: 12%;
+    height: auto;
+    overflow: hidden;
+}
+.caption {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 20%; 
+    padding-left: 1.5%;
+    line-height: 1.5;
+}
+
+
+
+.Bio {
+    margin-top: auto;
+    padding-top: 1%; 
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-bottom: 0%;   
+}
+
+.about_me_bio {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 1%; 
+    padding-left: 0%;
+    line-height: 1.5;  
+}
+
+.middle {
+    margin-top: auto;
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;  
+    text-align: left; 
+}
+
+.projects {
+    padding-bottom: 2%;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0%;
+}
+
+.projects_title {
+    font-size: 28px;
+    text-decoration: bold; 
+    font-weight: 350;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    margin-bottom: auto;
+    padding-left: 0%;
+}
+
+.proj_content {
+    display: flex;
+    align-items: left;
+}
+
+.proj_content img {
+    margin-right: 2%;
+    margin-top: 4%; 
+    max-width: 100%;
+}
+
+.project_details {
+    font-size: 16px;
+    margin-top: 2%;
+    margin-right: 5%;
+    line-height: 2;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.course {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 0%; 
+    padding-left: 0%;
+    line-height: 1.5; 
+}
+
+.course_details {
+    font-size: 14px;
+    font-weight: 65;
+    padding-top: 0px;
+    padding-bottom: 10px;  
+    padding-left: 0%;
+    line-height: 1.5; 
+}
+
+
+.reviews {
+    font-size: 14px;
+    font-weight: 150;
+    padding-top: 10px; 
+    padding-left: 0%;
+    line-height: 1.5;
+}
